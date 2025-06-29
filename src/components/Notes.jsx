@@ -262,7 +262,7 @@ const Notes = () => {
             <div className="logo_containers">
               <img className="logo_image" src={logosImage} alt="logo" />
             </div>
-            <h2 className="all_notes_logo">{isLeftOpen ? "Notes Library" : "IdeaNest"}</h2>
+            <h2 className="all_notes_logo">{isLeftOpen ? "Notes Library" : "Notes"}</h2>
             <div className="refresh_wrapper">
               <div className="refresh_button" onClick={handleRefresh}>
                 <FaSync className={`refresh_icon ${isRefreshing ? "rotating" : ""}`} title="Refresh Notes" />
