@@ -239,7 +239,7 @@ const Notes = () => {
           <>
             <div className="logo_container">
               <img className="logo_image" src={logosImage} alt="logo" />
-              <h2 className="logo">IdeaNest</h2>
+              <h2 className="logo">Notes</h2>
             </div>
             <form onSubmit={handleSubmit}>
               <input className="note_title" type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
