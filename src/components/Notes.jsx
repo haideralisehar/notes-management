@@ -11,7 +11,7 @@ import {
   FaTimes,
   FaSignOutAlt
 } from "react-icons/fa";
-import logosImage from "../Assets/logos.png";
+import logosImage from "../assets/logos.png";
 import "./Notes.css";
 import { useNavigate } from 'react-router-dom';
 

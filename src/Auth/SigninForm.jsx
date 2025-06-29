@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { signupUser } from '../api';
 import './SignupForm.css';
-import logosImage from "../Assets/logos.png";
+import logosImage from "../assets/logos.png";
 import { useNavigate } from "react-router-dom";
 import { signinUser } from '../api';
 
