@@ -1,8 +1,8 @@
 // src/api.js
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000/api/tasks'; // Your backend base URL
-const API_BASE_URL_AUTH = 'http://localhost:3000/api/auth';
+const API_BASE_URL = 'https://notes-backend-black.vercel.app/api/tasks'; // Your backend base URL
+const API_BASE_URL_AUTH = 'https://notes-backend-black.vercel.app/api/auth';
 
 // Helper function to get JWT token from localStorage
 const getAuthToken = () => {
